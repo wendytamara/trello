@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+header{
+  margin: 20px;
+}
+
+header li{
+  font-size: 2em;
+  display: inline-block;
+  outline: 1px solid black;
+
+}
+section{
+  margin: 50px;
+}
+
+main .container{
+  /*display: block; */
+float: left;
+}
+
+.container, .container2{
+   outline: 1px solid yellow;
+  width: 33%;
+  display: inline-block;
+  height: 200px;
+}
